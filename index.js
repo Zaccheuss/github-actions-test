@@ -8,5 +8,5 @@ _.fill(myArr, "a");
 
 console.log(myArr);
 
-console.log(process.env.TEST_SECRET);
-console.log(process.env.TEST_DEV_ENV_SECRET);
+console.log("test_secret:", process.env.TEST_SECRET);
+console.log("test_dev_env_secret:", process.env.TEST_DEV_ENV_SECRET);
