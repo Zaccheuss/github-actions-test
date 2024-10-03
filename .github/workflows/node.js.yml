@@ -16,6 +16,7 @@ env:
 
 jobs:
   build:
+    environment: dev
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
